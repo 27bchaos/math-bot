@@ -17,7 +17,7 @@ let botStartTime = Date.now(); // Track the bot's startup time
 let isInMaintenance = false; // Maintenance flag (set to true to enable maintenance mode)
 
 client.once("ready", () => {
-  console.log("Bot is ready!");
+  console.log("Bot is ready! s");
   console.log("Logged in as:", client.user.tag);
 });
 
